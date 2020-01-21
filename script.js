@@ -1,2 +1,1 @@
-var x = document.querySelector("title").innerText;
-document.querySelector("h1").innertext = x;
+document.querySelector("h1") = document.querySelector("title").innerText;
